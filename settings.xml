@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiqqer>
+    <project>
+
+        <settings>
+            <config>
+                <section name="templateSimple.settings">
+
+                    <conf name="pageBackground">
+                        <type><![CDATA[string]]></type>
+                    </conf>
+                    <conf name="backgroundColor">
+                        <type><![CDATA[string]]></type>
+                        <defaultvalue>hide</defaultvalue>
+                    </conf>
+                    <conf name="fontColor">
+                        <type><![CDATA[string]]></type>
+                        <defaultvalue>hide</defaultvalue>
+                    </conf>
+
+                </section>
+            </config>
+
+            <window>
+                <categories>
+                    <category name="templateSimple">
+                        <text>
+                            <locale group="quiqqer/template-simple"
+                                    var="templateSimple.settings.menu.title"
+                                    />
+                        </text>
+                        <icon>URL_BIN_DIR/22x22/quiqqer.png</icon>
+
+
+                        <!-- Background Color Switcher Prefix / Suffix -->
+                        <settings title="templateSimple.settings"
+                                  name="templateSimple.settings.general">
+                            <title>
+                                <locale group="quiqqer/template-simple"
+                                        var="templateSimple.settings.general.title"
+                                        />
+                            </title>
+
+                            <!-- Background image -->
+                            <input conf="templateSimple.settings.pageBackground" class="media-image">
+                                <text>
+                                    <locale group="quiqqer/template-simple"
+                                            var="templateSimple.settings.pageBackground"
+                                    />
+                                </text>
+                            </input>
+
+                            <!-- Colors: background -->
+                            <input conf="templateSimple.settings.backgroundColor"
+                                   type="color">
+                                <text>
+                                    <locale group="quiqqer/template-simple"
+                                            var="templateSimple.settings.backgroundColor.text"
+                                    />
+                                </text>
+                            </input>
+
+                            <!-- Colors: font -->
+                            <input conf="templateSimple.settings.fontColor"
+                                   type="color">
+                                <text>
+                                    <locale group="quiqqer/template-simple"
+                                            var="templateSimple.settings.fontColor.text"
+                                    />
+                                </text>
+                            </input>
+                        </settings>
+
+                    </category>
+                </categories>
+
+            </window>
+        </settings>
+
+        <wysiwyg class="page-content">
+
+            <css src="//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic"/>
+            <css src="URL_OPT_DIR/quiqqer/template-simple/bin/css/style.css"/>
+            <css src="URL_OPT_DIR/quiqqer/template-simple/bin/css/editor.css"/>
+
+        </wysiwyg>
+
+    </project>
+</quiqqer>

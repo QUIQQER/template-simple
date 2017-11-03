@@ -23,5 +23,7 @@ if ($Project->getMedia()->getLogoImage()) {
 $Engine->assign(array(
     'Locale' => $Locale,
     'Logo' => $Logo,
-    'alt' => $alt
+    'alt' => $alt,
+    'Project' => $Project,
+    'Template' => $Template
 ));
