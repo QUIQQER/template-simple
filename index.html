@@ -1,22 +1,11 @@
 <!doctype html>
-<!--[if lt IE 7 ]>
-<html class="ie ie6" lang="{$Project->getAttribute('lang')}" itemscope
-      itemtype="http://schema.org/WebPage"> <![endif]-->
-<!--[if IE 7 ]>
-<html class="ie ie7" lang="{$Project->getAttribute('lang')}" itemscope
-      itemtype="http://schema.org/WebPage"> <![endif]-->
-<!--[if IE 8 ]>
-<html class="ie ie8" lang="{$Project->getAttribute('lang')}" itemscope
-      itemtype="http://schema.org/WebPage"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="{$Project->getAttribute('lang')}" itemscope itemtype="http://schema.org/WebPage"> <!--<![endif]-->
+<html lang="{$Project->getAttribute('lang')}" itemscope itemtype="http://schema.org/WebPage">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,maximum-scale=1"/>
 
     {$Template->getHeader()}
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,500,700' rel='stylesheet'
-          type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 
 
     <!--[if (lt IE 9) & (!IEMobile)]>
@@ -29,23 +18,89 @@
 
     <!-- [end] css combine -->
 
+    <style>
+        body {
+            color: {$fontColor};
+        }
+
+        .body-wrapper {
+            background-image: url('{$background}');
+            background-color: {$backgroundColor};
+        }
+
+        a,
+        a:hover,
+        a:active {
+            color: {$mainColor};
+        }
+
+        input[type='submit'],
+        input[type='reset'],
+        input[type='button'],
+        button,
+        .button,
+        .tpl-businessPro-row .button,
+        button:disabled,
+        button:disabled:hover,
+        a.template-button,
+        button.qui-button-active,
+        button.qui-button:active,
+        button.qui-button:hover {
+            background-color: {$mainColor};
+            color: #fff;
+            border: 2px solid {$mainColor};
+        }
+
+        input[type='submit']:hover,
+        input[type='reset']:hover,
+        input[type='button']:hover,
+        button:hover,
+        .button-active,
+        .button:active,
+        .button:hover {
+            color: {$mainColor};
+        }
+
+        .page-navigation ul li:after {
+            color: {$mainColor};
+        }
+
+    </style>
 
 </head>
 <body>
 
-<div class="page-wrapper">
-    <div class="logo-wrapper">
-        {image src=$Logo width=400 itemprop="$alt"}
-    </div>
-    <div class="page-content">
-        Seiten Content
-    </div>
-    <div class="nav">
-        Nav
+<div class="body-wrapper">
+    <div class="page-wrapper">
+
+            <div class="logo-wrapper">
+                {if $Logo}
+                <a href="{url id=1}" class="page-header-logo">
+                    {image image=$Logo width=700 class="page-header-logo-img"}
+                </a>
+                {/if}
+
+            </div>
+            <div class="page-content">
+                {$Template->getBody()}
+            </div>
+            <nav class="page-navigation">
+                <ul>
+                    {foreach from=$children item=Child}
+                    <li class="page-header-navigation-entry">
+
+                        <!-- menu (level 1) -->
+                        {assign var=subnavigation value=$Child->getNavigation()}
+
+                        <a href="{url site=$Child}" class="page-header-navigation-entry-link">
+                            {$Child->getAttribute('title')}
+                        </a>
+                    </li>
+                    {/foreach}
+                </ul>
+            </nav>
+
     </div>
 </div>
-
-
-
 </body>
 </html>

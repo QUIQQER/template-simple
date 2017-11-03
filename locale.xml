@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+    <groups name="quiqqer/template-simple" datatype="php,js">
+
+        <locale name="package.title">
+            <de><![CDATA[Simple]]></de>
+            <en><![CDATA[Simple]]></en>
+            <pl><![CDATA[Simple]]></pl>
+        </locale>
+        <locale name="package.description">
+            <de><![CDATA[Extrem simples Template, das man dann dann einsetzen kann, before die eigentliche Internetseite erstellt wird. Es eignet sich auch zur Ankündigung eines Produktes oder Apps.]]></de>
+            <en><![CDATA[Extremely simple template, which you can use before creating the right website. It is also suitable for announcing a product or apps.]]></en>
+            <pl><![CDATA[Ekstremalnie prosty szablon strony internetowej, który można wykorzstac zanim powstanie właściwy serwis. Idealny również do zapowiedzi produktów lub aplikacji.]]></pl>
+        </locale>
+
+
+        
+        <!-- Settings -->
+        <locale name="settings.menu.title">
+            <de><![CDATA[Template Einstellungen: Simple]]></de>
+            <en><![CDATA[Template settings: Simple]]></en>
+            <pl><![CDATA[Ustawienia szablonu: Simple]]></pl>
+        </locale>
+
+        <!-- Settings: background -->
+
+        <locale name="settings.pageBackground">
+            <de><![CDATA[Hintergrundbild der Seite]]></de>
+            <en><![CDATA[Site background image]]></en>
+            <pl><![CDATA[Obraz tła strony]]></pl>
+        </locale>
+
+        <!-- Settings: Colors -->
+        <locale name="settings.backgroundColor">
+            <de><![CDATA[Hintergrundfarbe der Seite]]></de>
+            <en><![CDATA[Site background color]]></en>
+            <pl><![CDATA[Kolor tła strony]]></pl>
+        </locale>
+        <locale name="settings.fontColor">
+            <de><![CDATA[Schriftfarbe]]></de>
+            <en><![CDATA[Font color]]></en>
+            <pl><![CDATA[Kolor czcionki]]></pl>
+        </locale>
+
+        <locale name="settings.mainColor">
+            <de><![CDATA[Hauptfarbe (Hyperlinks, Buttons, etc.)]]></de>
+            <en><![CDATA[Main color (button, hyperlink)]]></en>
+            <pl><![CDATA[Główny kolor (button, hiperłącza)]]></pl>
+        </locale>
+
+    </groups>
+</locales>

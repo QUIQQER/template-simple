@@ -1,40 +1,40 @@
 template-simple
 ========
 
-Simple one page template for basic information about the project.
+Extremely simple one page template for announcing the basic information about the project,
+ website or product.
 
-Paketname:
+Package name:
 
     quiqqer/template-simple
 
 
-Features (Funktionen)
+Features
 --------
-(...)
+- Image or color as site background
+- Main and font color setting
 
 Installation
 ------------
 
-Der Paketname ist: quiqqer/template-simple
+The package name is: quiqqer/template-simple
 
 
-Mitwirken
+Contribute
 ----------
 
-- Issue Tracker: 
-- Source Code: 
+- Issue Tracker: https://dev.quiqqer.com/quiqqer/template-simple/issues
+- Source Code: https://dev.quiqqer.com/quiqqer/template-simple
 
 
 Support
 -------
 
-Falls Sie einen Fehler gefunden haben oder Verbesserungen wünschen,
-senden Sie bitte eine E-Mail an support@pcsg.de.
+If you have found a bug or want to make improvements,
+then you can write an e-mail to support@pcsg.de.
 
 
-Lizenz
+License
 -------
 
-
-Entwickler
---------
+GPL-3.0+
