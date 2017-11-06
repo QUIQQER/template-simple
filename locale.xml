@@ -22,20 +22,106 @@
             <pl><![CDATA[Ustawienia szablonu: Simple]]></pl>
         </locale>
 
-        <!-- Settings: background -->
+        <!-- background settings -->
+        <locale name="settings.background.title">
+            <de><![CDATA[Hintergrund Einstellungen]]></de>
+            <en><![CDATA[Background settings]]></en>
+            <pl><![CDATA[Ustawienia tla]]></pl>
+        </locale>
 
+        <!-- Settings: background -->
         <locale name="settings.pageBackground">
             <de><![CDATA[Hintergrundbild der Seite]]></de>
             <en><![CDATA[Site background image]]></en>
             <pl><![CDATA[Obraz tła strony]]></pl>
         </locale>
+        <locale name="settings.pageBackground.desc">
+            <de><![CDATA[Hintergrundbild der Seite]]></de>
+            <en><![CDATA[Site background image]]></en>
+            <pl><![CDATA[Obraz tła strony]]></pl>
+        </locale>
+            <locale name="settings.pageBackground.templateDefault">
+                <de><![CDATA[Template Standardbild]]></de>
+                <en><![CDATA[Template standard image]]></en>
+                <pl><![CDATA[Standardowy obraz szablonu]]></pl>
+            </locale>
+            <locale name="settings.pageBackground.ownImage">
+                <de><![CDATA[Eigenes Bild (bitte unten auswählen)]]></de>
+                <en><![CDATA[Own image (please select one)]]></en>
+                <pl><![CDATA[Własny obraz (proszę wybrać poniżej)]]></pl>
+            </locale>
+            <locale name="settings.pageBackground.none">
+                <de><![CDATA[Kein Bild]]></de>
+                <en><![CDATA[No image]]></en>
+                <pl><![CDATA[Bez obrazu]]></pl>
+            </locale>
 
-        <!-- Settings: Colors -->
+        <locale name="settings.ownImage">
+            <de><![CDATA[Hintergrundbild der Seite]]></de>
+            <en><![CDATA[Site background image]]></en>
+            <pl><![CDATA[Obraz tła strony]]></pl>
+        </locale>
+
+        <!-- background color -->
         <locale name="settings.backgroundColor">
             <de><![CDATA[Hintergrundfarbe der Seite]]></de>
             <en><![CDATA[Site background color]]></en>
             <pl><![CDATA[Kolor tła strony]]></pl>
         </locale>
+            <locale name="settings.backgroundColor.desc">
+                <de><![CDATA[Wird nur dann verwendet, wenn die Option "Kein Bild" ausgewählt ist.]]></de>
+                <en><![CDATA[Only used when the "No image" option is selected.]]></en>
+                <pl><![CDATA[Ustawienie ma zastosowanie wtedy, gdy wybrana jest opcja "Brak obrazu".]]></pl>
+            </locale>
+
+        <!-- second background -->
+        <locale name="settings.secondBackgroundColor">
+            <de><![CDATA[Zweite Hintergrundfarbe]]></de>
+            <en><![CDATA[Second background color]]></en>
+            <pl><![CDATA[Drugi kolor tła]]></pl>
+        </locale>
+            <locale name="settings.secondBackgroundColor.light">
+                <de><![CDATA[Hell]]></de>
+                <en><![CDATA[Light]]></en>
+                <pl><![CDATA[Jasny]]></pl>
+            </locale>
+            <locale name="settings.secondBackgroundColor.dark">
+                <de><![CDATA[Dunkel]]></de>
+                <en><![CDATA[Dark]]></en>
+                <pl><![CDATA[Ciemny]]></pl>
+            </locale>
+            <locale name="settings.secondBackgroundColor.none">
+                <de><![CDATA[Keine Farbe]]></de>
+                <en><![CDATA[None]]></en>
+                <pl><![CDATA[Brak]]></pl>
+            </locale>
+
+        <locale name="settings.secondBackgroundColor.desc">
+            <de><![CDATA[Eine zusätzliche transparente Farbe. Somit lässt sich der Text der Seite auch auf bunten Bildern lesbar machen (abhängig von den ausgewählten Einstellungen).]]></de>
+            <en><![CDATA[An additional transparent colour. Thus, the text of the page can be made legible on colorful pictures (depending on the settings]]></en>
+            <pl><![CDATA[Dodatkowy przezroczysty kolor. Dzięki temu tekst strony może być czytelny również na kolorowych zdjęciach (w zależności od wybranych ustawień)]]></pl>
+        </locale>
+
+        <!-- transparency -->
+        <locale name="settings.transparency">
+            <de><![CDATA[Durchsichtigkeit des zweiten Backgrounds]]></de>
+            <en><![CDATA[Second background transparency]]></en>
+            <pl><![CDATA[Przezroczystosc drugiego tla]]></pl>
+        </locale>
+            <locale name="settings.transparency.desc">
+                <de><![CDATA[Tragen Sie bitte einen Wert zwischen 1 und 100 ein.]]></de>
+                <en><![CDATA[Only values between 1 and 100 are allowed.]]></en>
+                <pl><![CDATA[Dopuszczalne są tylko wartości od 1 do 100.]]></pl>
+            </locale>
+
+
+        <!-- Settings: Colors -->
+        <locale name="settings.fontColor.title">
+            <de><![CDATA[Schriftfarbe Einstellungen]]></de>
+            <en><![CDATA[Font color settings]]></en>
+            <pl><![CDATA[Ustawienia koloru czcionki]]></pl>
+        </locale>
+
         <locale name="settings.fontColor">
             <de><![CDATA[Schriftfarbe]]></de>
             <en><![CDATA[Font color]]></en>

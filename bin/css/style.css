@@ -659,11 +659,11 @@ a.quiqqer-tags-search-result-entry-link:hover h4,
 
 .body-wrapper {
     background-size: cover;
+    background-position: center;
 }
 
 .page-wrapper {
     min-height: 100vh;
-    background: rgba(255,255,255,0.6);
     display: flex;
     flex-direction: column;
     justify-content: center;

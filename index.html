@@ -18,15 +18,34 @@
 
     <!-- [end] css combine -->
 
+
+
     <style>
         body {
             color: {$fontColor};
         }
 
         .body-wrapper {
-            background-image: url('{$background}');
             background-color: {$backgroundColor};
         }
+
+        {if $background}
+            {if $ownImage}
+                {assign var=bg value=$ownImage}
+            {else}
+            {assign var=bg value="$URL_TPL_DIR/bin/img/bg.jpg"}
+            {/if}
+
+        .body-wrapper {
+            background-image: url('{$bg}');
+        }
+        {/if}
+
+        {if $secondBackgroundColor}
+        .page-wrapper {
+            background-color: {$secondBackgroundColor};
+        }
+        {/if}
 
         a,
         a:hover,
