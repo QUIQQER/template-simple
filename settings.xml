@@ -7,12 +7,25 @@
                 <section name="templateSimple.settings">
 
                     <conf name="pageBackground">
+                        <type><![CDATA[string]]>templateDefault</type>
+                    </conf>
+                    <conf name="ownImage">
                         <type><![CDATA[string]]></type>
                     </conf>
                     <conf name="backgroundColor">
                         <type><![CDATA[string]]></type>
-                        <defaultvalue>#ffffff</defaultvalue>
+                        <defaultvalue>#503677</defaultvalue>
                     </conf>
+                    <conf name="secondBackgroundColor">
+                        <type><![CDATA[string]]></type>
+                        <defaultvalue>light</defaultvalue>
+                    </conf>
+                    <conf name="transparency">
+                        <type><![CDATA[string]]></type>
+                        <defaultvalue>70</defaultvalue>
+                    </conf>
+
+
                     <conf name="fontColor">
                         <type><![CDATA[string]]></type>
                         <defaultvalue>#5d5d5d</defaultvalue>
@@ -36,17 +49,46 @@
                         <icon>URL_BIN_DIR/22x22/quiqqer.png</icon>
 
 
-                        <!-- Background Color Switcher Prefix / Suffix -->
                         <settings title="templateSimple.settings"
-                                  name="templateSimple.settings.general">
+                                  name="templateSimple.settings.background">
                             <title>
                                 <locale group="quiqqer/template-simple"
-                                        var="settings.general.title"
+                                        var="settings.background.title"
                                         />
                             </title>
 
-                            <!-- Background image -->
-                            <input conf="templateSimple.settings.pageBackground" class="media-image">
+                            <!-- background image -->
+                            <select conf="templateSimple.settings.pageBackground">
+                                <text>
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.pageBackground"
+                                    />
+                                </text>
+                                <description>
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.pageBackground.desc"
+                                    />
+                                </description>
+
+                                <option value="templateDefault">
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.pageBackground.templateDefault"
+                                    />
+                                </option>
+                                <option value="ownImage">
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.pageBackground.ownImage"
+                                    />
+                                </option>
+                                <option value="none">
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.pageBackground.none"
+                                    />
+                                </option>
+                            </select>
+
+                            <!-- owm image -->
+                            <input conf="templateSimple.settings.ownImage" class="media-image">
                                 <text>
                                     <locale group="quiqqer/template-simple"
                                             var="settings.pageBackground"
@@ -62,7 +104,69 @@
                                             var="settings.backgroundColor"
                                     />
                                 </text>
+                                <description>
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.backgroundColor.desc"
+                                    />
+                                </description>
                             </input>
+
+                            <select conf="templateSimple.settings.secondBackgroundColor">
+                                <text>
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.secondBackgroundColor"
+                                    />
+                                </text>
+                                <description>
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.secondBackgroundColor.desc"
+                                    />
+                                </description>
+
+                                <option value="light">
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.secondBackgroundColor.light"
+                                    />
+                                </option>
+                                <option value="dark">
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.secondBackgroundColor.dark"
+                                    />
+                                </option>
+                                <option value="none">
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.secondBackgroundColor.none"
+                                    />
+                                </option>
+                            </select>
+
+                            <!-- second background transparency -->
+                            <input conf="templateSimple.settings.transparency"
+                                   type="number">
+                                <text>
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.transparency"
+                                    />
+                                </text>
+                                <description>
+                                    <locale group="quiqqer/template-simple"
+                                            var="settings.transparency.desc"
+                                    />
+                                </description>
+                            </input>
+
+                        </settings>
+
+
+
+                        <settings title="templateSimple.settings"
+                                  name="templateSimple.settings.fontColor">
+
+                            <title>
+                                <locale group="quiqqer/template-simple"
+                                        var="settings.fontColor.title"
+                                />
+                            </title>
 
                             <!-- Colors: font -->
                             <input conf="templateSimple.settings.fontColor"
