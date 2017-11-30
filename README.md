@@ -1,8 +1,10 @@
-template-simple
+![QUIQQER Calendar](bin/img/Readme.jpg)
+
+
+QUIQQER Simple
 ========
 
-Extremely simple one page template for announcing the basic information about the project,
- website or product.
+Extremely simple one page template for announcing the basic information about the project, website or product.
 
 Package name:
 
@@ -11,8 +13,11 @@ Package name:
 
 Features
 --------
-- Image or color as site background
-- Main and font color setting
+- Image or color as background
+- Second layer with adjustable color and opacity
+- Variable colors
+- Responsive
+- FontAwesome support
 
 Installation
 ------------

@@ -8,7 +8,11 @@
             <locale group="quiqqer/template-simple" var="package.description"/>
         </description>
 
-        <image src="URL_OPT_DIR/quiqqer/template-simple/bin/img/Logo.jpg"/>
+        <image src="URL_OPT_DIR/quiqqer/template-simple/bin/img/Logo.png"/>
+        <preview>
+            <image src="URL_OPT_DIR/quiqqer/template-simple/bin/img/preview/Template_Simple.jpg"/>
+            <image src="URL_OPT_DIR/quiqqer/template-simple/bin/img/preview/Template_Simple_2.jpg"/>
+        </preview>
 
         <support>
             <email><![CDATA[support@pcsg.de]]></email>
