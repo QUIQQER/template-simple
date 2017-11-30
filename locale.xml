@@ -8,9 +8,9 @@
             <pl><![CDATA[Simple]]></pl>
         </locale>
         <locale name="package.description">
-            <de><![CDATA[Extrem simples Template, das man dann dann einsetzen kann, before die eigentliche Internetseite erstellt wird. Es eignet sich auch zur Ankündigung eines Produktes oder Apps.]]></de>
-            <en><![CDATA[Extremely simple template, which you can use before creating the right website. It is also suitable for announcing a product or apps.]]></en>
-            <pl><![CDATA[Ekstremalnie prosty szablon strony internetowej, który można wykorzstac zanim powstanie właściwy serwis. Idealny również do zapowiedzi produktów lub aplikacji.]]></pl>
+            <de><![CDATA[Extrem simples Template zum Einsetzen bevor die eigentliche Internetseite erstellt wird. Es eignet sich auch zur Ankündigung eines Produktes oder Apps.]]></de>
+            <en><![CDATA[Extremely simple one page template for announcing the basic information about the project, website or product.]]></en>
+            <pl><![CDATA[Prosty aż do bólu szablon strony internetowej, który można wykorzystać zanim powstanie właściwy serwis. Idealny również do zapowiedzi produktów lub aplikacji.]]></pl>
         </locale>
 
 
