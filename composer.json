@@ -2,7 +2,7 @@
   "name": "quiqqer/template-simple",
   "type": "quiqqer-template",
   "description": "Extremely simple one page template for announcing the basic information about the project, website or product.",
-  "version": "dev-master",
+  "version": "1.0.0",
   "license": "GPL-3.0+",
   "authors": [
     {
