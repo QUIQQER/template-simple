@@ -1,4 +1,4 @@
-![QUIQQER Calendar](bin/img/Readme.jpg)
+![QUIQQER Simple](bin/img/Readme.jpg)
 
 
 QUIQQER Simple
