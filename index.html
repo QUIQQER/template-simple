@@ -5,6 +5,8 @@
 
     {$Template->getHeader()}
 
+    {fontawesome}
+
     <!-- [begin] css combine -->
     <link href="{$URL_TPL_DIR}bin/css/style.css" rel="stylesheet" type="text/css"/>
     <!-- [end] css combine -->
@@ -81,7 +83,7 @@
 
 <div class="body-wrapper">
     <div class="page-wrapper">
-
+        <div class="page">
             <div class="logo-wrapper">
                 {if $Logo}
                 <a href="{url id=1}" class="page-header-logo">
@@ -108,7 +110,7 @@
                     {/foreach}
                 </ul>
             </nav>
-
+        </div>
     </div>
 </div>
 </body>

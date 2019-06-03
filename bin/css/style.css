@@ -696,24 +696,42 @@ a.quiqqer-tags-search-result-entry-link:hover h4,
 /***************************/
 /* template simple styling */
 /***************************/
+h1, h2, h3, h4, h5 {
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 1rem;
+}
 
 .body-wrapper {
     background-size: cover;
     background-position: center;
+    height: 100vh;
+    overflow: auto;
 }
 
 .page-wrapper {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
 }
 
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* logo */
 .logo-wrapper {
-    margin: 30px 0;
+    margin: 0 0 30px;
 }
 
 .logo-wrapper a {
@@ -748,5 +766,11 @@ a.quiqqer-tags-search-result-entry-link:hover h4,
 
 .page-navigation ul li:last-child:after {
     display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .hide-on-mobile {
+        display: none;
+    }
 }
 

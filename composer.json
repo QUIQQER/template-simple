@@ -18,5 +18,10 @@
   },
   "require": {
     "quiqqer\/fontawesome": "*@dev"
+  },
+  "extra": {
+    "quiqqer": {
+      "demodata": true
+    }
   }
 }
