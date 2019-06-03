@@ -1,7 +1,7 @@
 <data>
     <project>
 
-        <!-- settings -->
+        <!-- SETTINGS -->
         <settings>
             <setting name="templateSimple.settings.pageBackground" value="none"/>
             <setting name="templateSimple.settings.ownImage" value="huhuhu.jpg"/>
@@ -12,7 +12,7 @@
             <setting name="templateSimple.settings.mainColor" value="#787281"/>
         </settings>
 
-        <!-- sites -->
+        <!-- SITES -->
         <sites>
             <!-- home -->
             <site identifier="home">
@@ -137,6 +137,24 @@
                 </bricks>-->
             </site>
         </sites>
+
+        <!-- MEDIA -->
+        <media>
+            <file path="demo/acme-logo-8_black.png">
+                <name>acme-logo-8_black.png</name>
+                <description>ACME demo logo</description>
+                <title>ACME - QUIQQER demo</title>
+                <priority>0</priority>
+                <alt>ACME - QUIQQER demo</alt>
+            </file>
+            <file path="Bricks/Slider/wallhaven-740482.jpg">
+                <name>wallhaven-740483.jpg</name>
+                <description>A simple wallpaper for the slider</description>
+                <title>Wallpaper 2</title>
+                <priority>0</priority>
+                <alt>Wallpaper</alt>
+            </file>
+        </media>
     </project>
     <bricks>
 
