@@ -17,6 +17,7 @@
     "url": "http://www.pcsg.de"
   },
   "require": {
+    "quiqqer\/bricks": "*@dev",
     "quiqqer\/fontawesome": "*@dev"
   },
   "extra": {
