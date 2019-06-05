@@ -19,7 +19,7 @@
   "require": {
     "quiqqer\/bricks": "*@dev",
     "quiqqer\/fontawesome": "*@dev",
-    "quiqqer\/demodata": "quiqqer/demodata#3"
+    "quiqqer\/demodata": "quiqqer\/demodata#3"
   },
   "extra": {
     "quiqqer": {
