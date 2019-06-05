@@ -768,6 +768,10 @@ p {
     display: none;
 }
 
+.page-navigation ul li a {
+    color: inherit;
+}
+
 @media screen and (max-width: 767px) {
     .hide-on-mobile {
         display: none;
