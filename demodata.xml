@@ -42,7 +42,7 @@
                             <attribute name="type">standard</attribute>
                             <attribute name="content"><![CDATA[
                                 <h1>Suspendisse non nisl sit amet</h1>
-                                <p><img src="${media:logo}" /></p>
+                                <p>ID der Seite HOME ${site:home}</p>
 
                                 <p>Aenean massa. Fusce convallis metus id felis luctus adipiscing. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur suscipit suscipit tellus. Vivamus elementum semper nisi.</p>
                                 <ul>
@@ -144,8 +144,8 @@
 
         <!-- MEDIA -->
         <media>
-            <file path="demo/acme-logo-8_black.png" identifier="logo">
-                <name>logo</name>
+            <file path="demo/acme-logo-8_white.png" identifier="logo">
+                <name>acme-logo-8_white.png</name>
                 <description>ACME demo logo</description>
                 <title>ACME - QUIQQER demo</title>
                 <priority>0</priority>
