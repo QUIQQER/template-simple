@@ -3,13 +3,18 @@
 
         <!-- SETTINGS -->
         <settings>
-            <setting name="templateSimple.settings.pageBackground" value="none"/>
-            <setting name="templateSimple.settings.ownImage" value="huhuhu.jpg"/>
-            <setting name="templateSimple.settings.backgroundColor" value="#503677"/>
-            <setting name="templateSimple.settings.secondBackgroundColor" value="light"/>
-            <setting name="templateSimple.settings.transparency" value="60"/>
-            <setting name="templateSimple.settings.fontColor" value="#3e3e3e"/>
-            <setting name="templateSimple.settings.mainColor" value="#787281"/>
+
+            <!-- general settings -->
+            <setting name="logo" value="${media:logo}"/>
+
+            <!-- template settings -->
+            <setting name="templateSimple.settings.pageBackground" value="ownImage"/>
+            <setting name="templateSimple.settings.ownImage" value="${media:wallpaper}"/>
+            <setting name="templateSimple.settings.backgroundColor" value="#575757"/>
+            <setting name="templateSimple.settings.secondBackgroundColor" value="dark"/>
+            <setting name="templateSimple.settings.transparency" value="40"/>
+            <setting name="templateSimple.settings.fontColor" value="#ffffff"/>
+            <setting name="templateSimple.settings.mainColor" value="#e36d38"/>
         </settings>
 
         <!-- SITES -->
@@ -25,8 +30,6 @@
                         <![CDATA[
                         <h3 style="text-align: center;">Lets do something that&#39;s crazy!</h3><p>&nbsp;</p><p style="text-align: center;">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p><p style="text-align: center;">and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy.</p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;"><a class="button" href="#">Email me!</a></p>
                     ]]></attribute>
-                    <attribute name="image_emotion">${media:Seiten/Home/emotion.jpg}</attribute>
-                    <attribute name="image_site">${media:Seiten/Home/seitenbild.png}</attribute>
                 </attributes>
                 <children>
 
@@ -39,6 +42,7 @@
                             <attribute name="type">standard</attribute>
                             <attribute name="content"><![CDATA[
                                 <h1>Suspendisse non nisl sit amet</h1>
+                                <p><img src="${media:logo}" /></p>
 
                                 <p>Aenean massa. Fusce convallis metus id felis luctus adipiscing. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur suscipit suscipit tellus. Vivamus elementum semper nisi.</p>
                                 <ul>
@@ -140,19 +144,19 @@
 
         <!-- MEDIA -->
         <media>
-            <file path="demo/acme-logo-8_black.png">
-                <name>acme-logo-8_black.png</name>
+            <file path="demo/acme-logo-8_black.png" identifier="logo">
+                <name>logo</name>
                 <description>ACME demo logo</description>
                 <title>ACME - QUIQQER demo</title>
                 <priority>0</priority>
                 <alt>ACME - QUIQQER demo</alt>
             </file>
-            <file path="Bricks/Slider/wallhaven-740482.jpg">
-                <name>wallhaven-740483.jpg</name>
-                <description>A simple wallpaper for the slider</description>
-                <title>Wallpaper 2</title>
+            <file path="demo/astronomy-dolomites-evening-1624496.jpg" identifier="wallpaper">
+                <name>astronomy-dolomites-evening-1624496.jpg</name>
+                <description>A beautiful wallpaper for a web page</description>
+                <title>Astronomy dolomites evening by Eberhard</title>
                 <priority>0</priority>
-                <alt>Wallpaper</alt>
+                <alt>A beautiful wallpaper for a web page</alt>
             </file>
         </media>
     </project>
