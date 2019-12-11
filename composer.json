@@ -1,22 +1,21 @@
 {
-  "name": "quiqqer/template-simple",
-  "type": "quiqqer-template",
-  "description": "Extremely simple one page template for announcing the basic information about the project, website or product.",
-  "version": "dev-master",
-  "license": "GPL-3.0+",
-  "authors": [
-    {
-      "name": "Michael Danielczok",
-      "email": "support@pcsg.de",
-      "homepage": "http://www.pcsg.de",
-      "role": "Developer"
+    "name": "quiqqer\/template-simple",
+    "type": "quiqqer-template",
+    "description": "Extremely simple one page template for announcing the basic information about the project, website or product.",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Michael Danielczok",
+            "email": "support@pcsg.de",
+            "homepage": "http:\/\/www.pcsg.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@pcsg.de",
+        "url": "http:\/\/www.pcsg.de"
+    },
+    "require": {
+        "quiqqer\/fontawesome": "*@dev"
     }
-  ],
-  "support": {
-    "email": "support@pcsg.de",
-    "url": "http://www.pcsg.de"
-  },
-  "require": {
-    "quiqqer\/fontawesome": "*@dev"
-  }
 }
